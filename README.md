@@ -9,7 +9,7 @@ $  packer build -color=false template.json
 ```
 
 ### variables
-There are many variables that can be specified on the `packer build` command line; however defaults (which are shown below) are appropriate for building an "all in one" jambonz server, so you generally should not need to specify values.
+There are a few optional variables that can be specified on the `packer build` command line; these are shown below along with their default values.
 
 ```
 "region": "us-east-1"
